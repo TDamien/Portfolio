@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Damien T</title>
+	<link rel="stylesheet" href="CSS/large-screen.css">
+	<link rel="stylesheet" href="CSS/media-queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="Scripts/menu.js"></script>
+</head>
+<body>
+	<!-- ////////////// -->
+<header class="large">
+	<div id="container">
+		<div id="container-head">
+			<div id="logo">
+				<p>Damien T</p>
+			</div>
+			<div id="menu">
+				<nav>
+					<ul>
+						<li>
+							<!-- class fa -->
+							<a href="#">Accueil</a>
+						</li>
+						<li>
+							<!-- class fa -->
+							<a href="#About">À propos</a>
+						</li>
+						<li>
+							<!-- class fa -->
+							<a href="#PortFolio">Portfolio</a>
+						</li>
+						<li>
+							<!-- class fa -->
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+</header>
+	<!-- ////////////// -->
+<section>
+
+<!-- ////////////////// ACCUEIL //////////////// -->
+ 
+<div class="Accueil">
+	<div class="parallax">
+		<span class="paraText1">
+			<h1>Damien T.</h1>
+			<h4>Développeur Web en formation auprès d'OpenClassrooms avec des consolidations autodidactes,<br/> vous trouverez ici mes compétences et les projets réalisés dans le cadre de ma formation.<br/>Actuellement à la recherche d'une entreprise pour terminer ma formation et obtenir mon diplôme.</h4>
+		</span>
+	</div>		
+</div>
+
+<!-- ////////////////// ACCUEIL //////////////// -->
+ 
+<!-- ////////////////// À PROPOS //////////////// -->
+<div id="About">
+	<div class="aPropos">
+		<h1>A propos de moi</h1>
+		<h4>Étudiant chez OpenClassrooms, j'ai<br/>acquis les bases des langages principaux tels que:</h4>
+	</div>
+	<div class="logosLangages">
+		<div id="langages">
+			<img src="Images/logos/HTML5.png" alt="Html5-logo" />
+			<h5>"Hyper Text Markup Langage"; on l'utilise pour structurer le contenu des pages</h5> 
+		</div>
+		<div id="langages">
+			<img src="Images/logos/CSS3.png" alt="Css3-logo" />
+			<h5>"Cascading Style Sheet"; on l'utilise pour mettre en forme et donner du style aux pages</h5> 
+		</div>
+		<div id="langages">
+			<img src="Images/logos/JS.png" alt="Javascript-logo" />
+			<h5>Javascript est un langage utilisé pour créer des scripts qui dynamisent les pages web</h5> 
+		</div>
+		<div id="langages">
+			<img src="Images/logos/WRDPRSS.png" alt="Wordpress-logo" />
+			<h5>Wordpress est un CMS (Content Management System) qui permet de créer des sites web ou applications dynamiques</h5> 
+		</div>
+	</div>
+		<h4>Pendant la suite de ma formation, je vais compléter mes acquis<br/>avec d'autres langages, frameworks ou techniques tels que:</h4>
+	<div class="futursLangages">
+		<div id="langages">
+			<img src="Images/logos/PHP.png" alt="Php-logo" />
+			<h5>Langage de programmation pour développer des pages dynamiques via un serveur HTTP, accompagné de Symphony5</h5>
+		</div>
+		<div id="langages">
+			<img src="Images/logos/MySQL.png" alt="MSQL-logo" />
+			<h5>Système de gestion de base de données</h5>
+		</div>
+		<div id="langages">
+			<img src="Images/logos/GIT.png" alt="GIT-logo" />
+			<h5>Github est une plateforme d'échange de connaissances ou de logiciels libres</h5>
+		</div>
+	</div>
+</div>
+<!-- ////////////////// À PROPOS //////////////// -->
+
+<!-- ////////////////// PORTFOLIO //////////////// -->
+
+<div id="PortFolio">
+	<h1>Mes projets réalisés</h1>
+	<div class="projects">
+		<div id="projets">
+			<a href="https://dt-webagency.000webhostapp.com/p2"><img src="Images/templates/WebAgency2.png" alt="WebAgency" /></a>
+			<h5>Le projet Web Agency était mon premier projet, réalisé uniquement en HTML5 et CSS3</h5>
+		</div>
+		<div id="projets">
+			<a href="https://dt-webagency.000webhostapp.com/"><img src="Images/templates/Wordpress2.png" alt="Wordpress" /></a>
+			<h5>Ce projet est réalisé avec le CMS Wordpress, avec un thème personnalisé en CSS3</h5>
+		</div>
+	</div>
+</div>
+
+<!-- ////////////////// PORTFOLIO //////////////// -->
+
+<!-- ////////////////// CONTACT //////////////// -->
+
+<div id="contact">
+	<div class="mail">
+		<h1>Contactez moi</h1>
+		<form action=""//formspree.io/tapin.damien@gmail.com"" method="POST">
+			<p>Nom</p>
+			<input id="nom" type="text" name="nom:" placeholder="Votre nom..." required />
+			<p>Email</p>
+			<input id="email" type="email" name="email:" placeholder="Votre email..." required />
+			<p>Téléphone</p>
+			<input id="telephone" type="text" name="téléphone:" placeholder="Votre téléphone..." />
+			<p>Message</p>
+			<textarea rows="5" cols="10" id="message" name="message:" placeholder="Tapez votre message..." required></textarea>
+			<input type="text" name="_gotcha" style="display:none" />
+			<br/><input type="submit" name="envoyer" value="envoyer">
+		</form>
+	</div>
+</div>
+<!-- ////////////////// CONTACT //////////////// -->
+
+
+
+</section>
+	<!-- ////////////// -->
+<footer>
+	<h3 class="footer">Damien T. / October 2018</h3>
+	<a href="https://www.linkedin.com/in/damien-t-684630171/"><i class="fab fa-linkedin-in"></i></a>	
+</footer>	
+
+</body>
+</html>

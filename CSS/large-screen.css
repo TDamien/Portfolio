@@ -1,0 +1,291 @@
+body {
+	margin: 0;
+	font-family: 'Asap', sans-serif;
+
+}
+
+a {
+	color: #55568b;
+}
+
+a:hover {
+	color: #3a1c1c;
+}
+
+/* //////////////////////////////////// 
+/////////////// HEADER ////////////////
+//////////////////////////////////// */
+header.large {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 120px;
+	background-color: rgba(0,139,139, 0.8);
+}
+
+header.small {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background-color: rgba(0,139,139, 1);
+}
+
+header {
+	z-index: 1000;
+	transition: all .5s;
+	-moz-transition: all .5s; /* Firefox 4 */
+  	-webkit-transition: all .5s; /* Safari and Chrome */
+  	-o-transition: all .5s; /* Opera */	
+}
+
+#container {
+	height: 100%;
+	margin: auto;
+	width: 100%;
+}
+
+#container-head {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	 
+}
+
+#logo {
+	color: black;
+	margin: 0.5em 1em;
+}
+
+#menu li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 1.5em;
+}
+
+#menu a {
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+
+/* //////////////////////////////////// 
+/////////////// HEADER ////////////////
+//////////////////////////////////// */
+
+/* //////////////////////////////////// 
+/////////////// SECTION ///////////////
+//////////////////////////////////// */
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(244, 251, 253, 1);
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* //////////////////////// ACCUEIL //////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+.Accueil {
+	width: 100%;
+}
+
+.parallax {
+	background-image: url("background.jpg");
+	min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.paraText1 {
+	background-color: rgba(255, 255, 255, 0.45);
+	position: absolute;
+	text-align: center;
+	z-index: 900;
+	width: 65%;
+	margin: 0 18%;
+	top: 40%;
+	opacity: 1;
+} 
+
+.paraText2 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+	text-align: center;
+	z-index: 900;
+	width: 65%;
+	margin: 0 18%;
+	top: 40%;
+	opacity: 0;
+} 
+
+.parallax span {
+	z-index: 1000;
+	transition: all 1s;
+	-moz-transition: all 1s; /* Firefox 4 */
+  	-webkit-transition: all 1s; /* Safari and Chrome */
+  	-o-transition: all 1s; /* Opera */	
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* //////////////////////// ACCUEIL //////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////// ABOUT ///////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+#About, #PortFolio, #contact {
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 4.5em;
+}
+
+
+.logosLangages, .futursLangages {
+	max-width: 1330px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 1.5em auto;
+}
+
+#langages {    
+	background-color: white;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 5px 5px;
+	width: 125px;
+	margin: 0 1.5em;
+	transition: transform .25s;
+}
+
+#langages:hover {
+	transform: scale(1.03);
+}
+
+#langages img {
+	height: 100px;
+	width: 100px;
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////// ABOUT ///////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////////////// */
+/* ///////////////////////// PORTFOLIO ///////////////////////// */
+/* ///////////////////////////////////////////////////////////// */
+#PortFolio {
+	justify-content: center;
+}
+
+#PortFolio h1 {
+	margin-bottom: 5em;
+}
+
+.projects {
+	justify-content: center;
+	min-width: 655px;
+	display: flex;
+	flex-direction: row;
+}
+
+.projects img {
+	margin: 0 1em;
+	height: 25vw;
+	max-width: 750px;
+	max-height: 465px;
+	transition: transform .25s;
+}
+
+#projets img:hover {
+	transform: scale(1.03);
+}
+
+#projets h5 {
+	font-size: 1em;
+	margin: .5em 1em;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* ///////////////////////// PORTFOLIO ///////////////////////// */
+/* ///////////////////////////////////////////////////////////// */
+
+/* /////////////////////////////////////////// */
+/* ///////////////// CONTACT ///////////////// */
+/* /////////////////////////////////////////// */
+
+.mail{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mail form {
+	width: 60vw;
+	max-width: 850px;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 5em;
+}
+
+.mail form p {
+	border-bottom: 1px solid white;
+	padding: 10px 5px;
+}
+
+.mail form input {
+	width: 100%;
+}
+
+.mail textarea {
+	margin: 5px 0;
+	width: 100%;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* ////////////////////////// CONTACT ////////////////////////// */
+/* ///////////////////////////////////////////////////////////// */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(35, 31, 31, 0.95); 
+}
+
+footer h3 {
+	color: white;
+	margin: 18px;
+}
+
+footer i.fab {
+	color: black;
+	background-color: white;
+	border-radius: 2px 2px;
+	padding: 5px; 
+	margin: 18px;
+}
+
+/* //////////////////////////////////// 
+/////////////// SECTION ///////////////
+//////////////////////////////////// */
+
+
+
+
+

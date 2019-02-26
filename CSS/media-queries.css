@@ -1,0 +1,102 @@
+/* ///////////////////////////////////////////////////////////// */
+/* /////////////////////////// MEDIA /////////////////////////// */
+/* ///////////////////////////////////////////////////////////// */
+
+@media only screen 
+and (min-device-width : 768px) /* IPAD */
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	body {
+		font-size: 25px;
+	}
+	#About, #Portfolio, #contact {
+		height: initial;
+		padding-top: 1em;
+	}
+	/*menu */
+	#container-head{
+		font-size: 25px;
+	}
+	/* accueil */
+	.parallax span {
+		background-color: rgba(255, 255, 255, 0.75);
+	}
+	/* about */
+	.logosLangages, .futursLangages {
+		width: 100%;
+	}
+	#langages {
+		width: 25%;
+		margin: 35px 35px;
+	}
+	/* portfolio */
+	#PortFolio h1 {
+		margin-bottom: initial;
+	}
+	.projects {
+		display: block;
+	}
+	.projects img {
+		height: initial;
+	}
+	/* contact */
+	input {
+		font-size: 20px;
+	}
+	/* footer */ 
+}
+
+@media only screen 
+and (min-device-width : 414px) /* iPHONE 6/7/8+ */
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+	body {
+		font-size: 30px;
+	}
+	#About, #Portfolio, #contact {
+		height: initial;
+		padding-top: 1em;
+	}
+	/*menu */
+	#container-head{
+		font-size: 30px;
+	}
+	#logo {
+		margin: 5px;
+	}
+	/* accueil */
+	.parallax span {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	/* about */
+	.logosLangages, .futursLangages {
+		width: 100%;
+	}
+	#langages {
+		font-size: 40px;
+		width: 35%;
+		margin: 35px 35px;
+	}
+	#langages img {
+		width: 256px;
+		height: 256px;
+	}
+	/* portfolio */
+	#PortFolio h1 {
+		margin-bottom: initial;
+	}
+	.projects {
+		flex-direction: column;
+	}
+	.projects img {
+		height: initial;
+	}
+	#projets {
+		margin: 3vh;
+	}
+	/* contact */
+	input {
+		font-size: 20px;
+	}
+	/* footer */ 
+}
